@@ -1,0 +1,28 @@
+:root {
+    --background-color: #e2e8f0;
+    --accent-color: #1992d4;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    grid-template-rows: 5rem 1fr;
+
+}
+nav{
+    background-color: var(--accent-color);
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+}
+nav button{
+    background-color: transparent;
+    color: var(--background-color);
+    font: 2rem bold;
+    height: 3rem;
+    border-style: none;
+}
